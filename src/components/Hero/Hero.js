@@ -9,10 +9,10 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle>
         Aloha & Welcome <br />
-        to My Portfolio
+        to Matthew's Portfolio
       </SectionTitle>
       <SectionText>
-        My name is Matthew McQuain of Hawaii, and I have been burdened with glorious purpose. 
+        Full-Stack JavaScript Developer, Certified Strength & Conditioning Specialist, Beach Aficionado. 
       </SectionText>
       <Button onClick={() => window.location = 'https://westcoastcreatives.net'} >Learn More</Button>
     </LeftSection>

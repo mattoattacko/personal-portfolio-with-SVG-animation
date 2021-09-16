@@ -7,7 +7,7 @@ const data = [
   { number: 20, text: 'Open Source Projects'},
   { number: 100, text: 'Satisfied Customers', },
   { number: 190, text: 'Completed Applications', },
-  { number: 500, text: 'UpWork Stars', }
+  { number: 50, text: 'UpWork Stars', }
 ];
 
 const Acomplishments = () => (

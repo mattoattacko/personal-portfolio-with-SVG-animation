@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
-  object-fit: cover;
-  overflow: hidden;
+  &&& {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -20,7 +22,6 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -31,13 +32,12 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -65,7 +65,6 @@ export const Intro = styled.div`
   line-height: 18px;
 `;
 
-
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
@@ -75,10 +74,8 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
 }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
@@ -99,7 +96,6 @@ border-radius: 15px;
 transition: 0.5s;
 &:hover{
   background: #af66e8;
-
 }
 `;
 
