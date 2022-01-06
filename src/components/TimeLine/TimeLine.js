@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Merging the medical, military, and technology fields into one coherent application is my glorious purpose.
+      Hawaii kid attempting to merge the medical, aerospace, and software engineering fields into a functioning adult. Wish me luck.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
