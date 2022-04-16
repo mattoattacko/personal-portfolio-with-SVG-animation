@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Hawaii kid attempting to merge the medical, aerospace, and software engineering fields into a functioning adult. Wish me luck.
+      Hawaii born and raised, I was always taught to look at the big picture, while making sure to not loose sight of where we came from. Using the diversity of my background, I bring new ways of thinking to challenges of tomorrow.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

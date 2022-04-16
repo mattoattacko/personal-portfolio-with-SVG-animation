@@ -1,16 +1,16 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 50, text: 'Satisfied Customers', },
-  { number: 100, text: 'Completed Applications', },
+  { number: 15, text: 'Open Source Projects'},
+  { number: 30, text: 'Satisfied Clients', },
+  { number: 200, text: 'Completed Applications', },
   { number: 30, text: 'UpWork Stars', }
 ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <Section>
     <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
@@ -25,4 +25,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Accomplishments;

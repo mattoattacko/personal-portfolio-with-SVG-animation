@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionText>
         Full-Stack JavaScript Developer, Certified Strength & Conditioning Specialist, Beach Aficionado. 
       </SectionText>
-      <Button onClick={() => window.location = 'https://westcoastcreatives.net'} >Learn More</Button>
+      <Button onClick={() => window.location = 'https://www.upwork.com/freelancers/~01f6206ecf6bf14e26'} >Learn More</Button>
     </LeftSection>
   </Section>
 );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiAtom, DiCodeBadge } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -14,13 +14,14 @@ const Technologies = () =>  (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiAtom size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experieced with <br />
-            React.js, JavaScript, TypeScript, HTML, CSS
+            {/* Experieced with <br /> */}
+            {/* React.js, JavaScript, TypeScript, HTML, S/CSS */}
+            Next.js, Gatsby.js, React, Preact, Redux, ReduxJs/toolkit, SWR
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,20 +32,21 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experienced with <br />
-            Node, Express, Next.js, SEO, MongoDB, mySQL
+            {/* Experienced with <br /> */}
+            {/* NodeJS, Express, Next.js, SEO Optimization, MongoDB, mySQL, Firestore */}
+            Node, Express, Sequalize, Passport, aws-sdk, Joi, Faker, GraphQL, PostgresSQL, MySQL, MongoDB, DynamoDB, Neo4j
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiCodeBadge size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experienced with <br />
-            Bootstrap, Tailwind, Ant Design, Figma, Balsamic Wireframes
+            {/* Experienced with <br /> */}
+            Bootstrap, TailwindCSS, Ant Design, Material-UI, Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
